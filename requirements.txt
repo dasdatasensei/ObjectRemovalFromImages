@@ -1,0 +1,19 @@
+# Core dependencies
+numpy<2.0
+opencv-python==4.11.0.86
+Pillow==11.1.0
+requests==2.32.3
+python-dotenv==1.0.1
+
+# YOLO Object Detection
+ultralytics==8.3.75
+
+# AI Inpainting (Use the correct torch version for macOS)
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# HTTP Client (For Replicate API - if used)
+httpx==0.28.1
+pydantic==2.10.6
+replicate==1.0.4

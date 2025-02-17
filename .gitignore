@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.sqlite3
+*.db
+
+# Virtual Environments
+venv/
+.env/
+.envrc
+*.env
+*.sh.env
+poetry.lock
+Pipfile.lock
+*.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+*.out
+*.err
+nohup.out
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+.DS_Store
+*.bak
+
+# Machine Learning Artifacts
+models/
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+*.pt
+*.pth
+mlruns/
+mlflow/
+wandb/
+*.mlmodel
+
+# Data Files
+data/
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.json
+*.xml
+*.zip
+*.tar.gz
+*.bz2
+*.xlsx
+*.db
+
+# Cloud & API Credentials (NEVER COMMIT CREDENTIALS)
+.aws/
+.gcp/
+.gcs/
+azure_config.json
+secrets.toml
+*.pem
+*.key
+*.crt
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.kube/
+*.yaml
+
+# Terraform
+.terraform/
+terraform.tfstate*
+terraform.tfvars
+
+# Airflow
+airflow.cfg
+*.airflowignore
+
+# DBT
+target/
+dbt_packages/
+logs/
+manifest.json
+catalog.json
+run_results.json
+
+# PyTest & Coverage
+.coverage
+*.cover
+htmlcov/
+*.pytest_cache/
+pytest_cache/
+
+# Metabase
+.metabase.db
+
+# FastAPI / Flask
+instance/
+config.json
+
+# Ignore local notebooks (optional)
+notebooks/
