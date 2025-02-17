@@ -76,9 +76,4 @@ MIT License. Free to use and modify.
 
 ---
 
-## **⭐ Contributions**
-Feel free to **fork, star**, and **submit PRs**. If you find this useful, consider giving it a **star ⭐**!
-
----
-
 Let me know if you need any refinements! 🚀
