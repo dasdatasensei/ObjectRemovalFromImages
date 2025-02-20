@@ -62,10 +62,10 @@ wandb/
 *.mlmodel
 
 # Data Files
-data/
-data/raw/
-data/interim/
-data/processed/
+# data/
+# data/raw/
+# data/interim/
+# data/processed/
 *.csv
 *.tsv
 *.parquet
