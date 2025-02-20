@@ -5,6 +5,7 @@ This repository provides an **AI-powered object removal tool** using **YOLOv8** 
 ---
 
 ## **✨ Features**
+
 - **Object Detection**: Uses **YOLOv8** to identify objects in an image.
 - **Automated Object Removal**: Removes detected objects and fills the missing areas using **OpenCV inpainting**.
 - **Efficient Processing**: Fast and lightweight pipeline for real-time object removal.
@@ -12,7 +13,9 @@ This repository provides an **AI-powered object removal tool** using **YOLOv8** 
 ---
 
 ## **🛠️ Installation**
+
 Clone the repository and install dependencies:
+
 ```sh
 git clone https://github.com/yourusername/ObjectRemoval.git
 cd ObjectRemoval
@@ -24,11 +27,15 @@ pip install -r requirements.txt
 ---
 
 ## **🚀 Usage**
+
 Run the script with an input image:
+
 ```sh
 python main.py --input data/input/image.jpg --output data/output/cleaned.jpg
 ```
+
 The script will:
+
 1. Detect objects in the image.
 2. Create masks for detected objects.
 3. Remove objects and inpaint the missing area.
@@ -36,6 +43,7 @@ The script will:
 ---
 
 ## **📂 Project Structure**
+
 ```
 📦 ObjectRemoval
  ┣ 📂 data
@@ -52,9 +60,11 @@ The script will:
 ---
 
 ## **🔧 Dependencies**
+
 ```sh
 pip install -r requirements.txt
 ```
+
 - `opencv-python`
 - `torch`, `torchvision`
 - `ultralytics` (YOLOv8)
@@ -63,15 +73,19 @@ pip install -r requirements.txt
 ---
 
 ## **🖼️ Example**
+
 ### **Input**
-<img src="data/input/image.jpg" width="400">
+
+<img src="data/input/pexels-theo-1090064-3414792.jpg" width="400">
 
 ### **Output (Object Removed)**
-<img src="data/output/cleaned.jpg" width="400">
+
+<img src="data/output/pexels-theo-1090064-3414792_cleaned.jpg" width="400">
 
 ---
 
 ## **📜 License**
+
 MIT License. Free to use and modify.
 
 ---
