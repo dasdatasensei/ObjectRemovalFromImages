@@ -74,6 +74,8 @@ pip install -r requirements.txt
 
 ## **🖼️ Example**
 
+In the provided example, the script successfully removes a cup from an image sourced from Pexels. The input image shows the cup, and the output image displays the same scene without the cup.
+
 ### **Input**
 
 <img src="data/input/pexels-theo-1090064-3414792.jpg" width="400">
@@ -90,4 +92,4 @@ MIT License. Free to use and modify.
 
 ---
 
-Let me know if you need any refinements! 🚀
+Made with love by The Data Sensei! 🚀
