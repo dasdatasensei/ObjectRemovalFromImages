@@ -21,3 +21,6 @@ replicate==1.0.4
 # Enhanced CLI interface
 typer>=0.9.0
 rich>=13.7.0
+
+# Gradio Web Interface
+gradio>=4.19.2
