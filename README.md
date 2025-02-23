@@ -1,6 +1,26 @@
 # **Object Removal Using YOLOv8 🚀**
 
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![YOLOv8](https://img.shields.io/badge/YOLO-v8-green.svg)](https://github.com/ultralytics/ultralytics)
+[![OpenCV](https://img.shields.io/badge/OpenCV-%23white.svg?logo=opencv)](https://opencv.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Gradio](https://img.shields.io/badge/Gradio-4.19+-orange.svg)](https://gradio.app/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
+
 This repository provides an **AI-powered object removal tool** using **YOLOv8** for object detection and OpenCV for inpainting. It allows users to automatically detect and remove unwanted objects from images.
+
+## **🖥️ Interface**
+
+![AI Object Removal Tool Interface](assets/AIObjectRemovalTool.png)
+
+The tool provides an intuitive web interface where you can:
+
+- Upload or paste images directly
+- Select objects to remove from a comprehensive list
+- Choose cleanup level (light, medium, heavy)
+- See before/after comparison
+- Download the processed image
 
 ---
 
